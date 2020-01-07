@@ -19,4 +19,4 @@ app.use('/api/contacts', require('./routes/contacts'));
 const PORT = process.env.PORT || 5000;
 
 
-app.listen(PORT, () => console.log(`This Some Bullshit Allardo started on ${PORT}`));
+app.listen(PORT, () => console.log(` App started on PORT ${PORT}`));
